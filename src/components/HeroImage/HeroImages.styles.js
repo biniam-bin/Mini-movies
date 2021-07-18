@@ -1,0 +1,70 @@
+import styled from "styled-components";
+
+
+export const Wrapper = styled.div`
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 41%,
+        rgba(0, 0, 0, 0.65) 100%
+    ),
+    url(${({image}) => image}), var(--darkGrey);
+
+    
+    
+    background-size: 100%, cover;
+    position: relative;
+    height: 600px;
+    background-position: center;
+    animation: animateHeroImage 3s;
+    @keyframes animateHeroImage {
+  from {
+    opacity: 0;
+    width: 80%;
+    margin: auto;
+  }
+
+  to {
+    opacity: 1;
+    width: 100%;
+    margin: auto;
+  }
+}
+`;
+
+export const Content = styled.div`
+    padding: 80px;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+`;
+
+
+export const Text = styled.div`
+
+    z-index: 100;
+    max-width: 700px;
+    position: absolute;
+    bottom: 40px;
+    margin-right: 20px;
+    min-height: 100px;
+    color: var(--white);
+
+    h1 {
+        font-size: var(--fontSuperBig);
+
+        @media screen and (max-width: 720px) {
+            font-size: var(--fontBig);
+        }
+    }
+
+    p {
+        font-size: var(--fontMed);
+
+        @media screen and (max-width: 720px){
+            font-size: var(--fontSmall);
+        }
+    }
+
+    @media screen and (max-width: 720px){
+            max-width: 100%;
+        }
+`;

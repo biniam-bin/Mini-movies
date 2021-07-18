@@ -9,9 +9,10 @@ export const GlobalStyle = createGlobalStyle`
         --midGrey: #353535;
         --darkGrey: #1c1c1c;
         --fontBig: 1.5rem;
-        --fontSperBig: 25rem;
+        --fontSuperBig: 2.5rem;
         --fontMed: 1.2rem;
         --fontSmall: 1rem;
+        
         
     }
 
@@ -19,8 +20,31 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font: "Abel", sans-serif;
         
+        ::-webkit-scrollbar {
+            width: 10px;
+            transition: 1s all ease-in;
+            z-index: 2;
+            :hover{
+                width: 13px;
+        
+            }
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        //border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: var(--midGrey);
+        border-radius: 10px;
+        }
     }
+
     body {  
+        background-color: #000;
         margin: 0;
         padding: 0;
         h1{

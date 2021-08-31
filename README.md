@@ -1,10 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## [Mini Movies](#)
+
+This project shows
+<!-- ![alt text](https://drive.google.com/file/d/1vyDF62qP2S1BJgL2p84BF8q4ji-Xir_9/view?usp=sharing) -->
+<!-- ![alt text](./header.png) -->
+![plot](https://raw.githubusercontent.com/biniam-bin/disney-movies/main/public/images/cta-logo-one.png)
+
+
 
 ### `npm start`
+
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -28,6 +34,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 

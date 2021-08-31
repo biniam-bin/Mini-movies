@@ -9,9 +9,8 @@ function Header() {
         <Wrapper>
             <Content>
                 <Link to="/">
-                <LogoImg src={RMDBLogo}/>
+                <h1>Mini-movies</h1>
                 </Link>
-                <TMDBLogoImg src={TMDBLogo}/>
             </Content>
         </Wrapper>
     )

@@ -1,75 +1,46 @@
 
 
-## [Mini Movies](#)
+## <h1 align="center">`Mini Movies`</h1>
 
-This project shows
-<!-- ![alt text](https://drive.google.com/file/d/1vyDF62qP2S1BJgL2p84BF8q4ji-Xir_9/view?usp=sharing) -->
-<!-- ![alt text](./header.png) -->
-![plot](https://raw.githubusercontent.com/biniam-bin/disney-movies/main/public/images/cta-logo-one.png)
+#### -> this project a project in which you can search movies and get detail of the movies.
+#### The project is made using
 
+<ul align="center">
+    <li><h2>ReactJs -> <span>for the frontend</span></h2></li>
+    <li><h2>Redux -> for state management</h2></li>
+    <li><h2>Firebase -> for the backend</h2></li>
+    <li><h2>Imdb -> to get movies api</h2></li>
+</ul>
 
+## <h2 align="center">`Header Section`</h2>
 
-### `npm start`
-
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+#### -> This hero section shows random movie from the top 20 according to imdb rating
+![plot](https://raw.githubusercontent.com/biniam-bin/Mini-movies/main/public/mini-movies-screenshot/header.png)
 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <h2 align="center">`Popular Movies Section`</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### -> In this section u can find most popular movies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![plot](https://raw.githubusercontent.com/biniam-bin/Mini-movies/main/public/mini-movies-screenshot/popular-movies.png)
 
-## Learn More
+#### -> You can also load more movies as much as you want
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![plot](https://raw.githubusercontent.com/biniam-bin/Mini-movies/main/public/mini-movies-screenshot/load-more.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## <h2 align="center">`Search functionality`</h2>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### -> Search every movie from the list
+![plot](https://raw.githubusercontent.com/biniam-bin/Mini-movies/main/public/mini-movies-screenshot/Search-function.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## <h2 align="center">`Details Page`</h2>
 
-### Making a Progressive Web App
+#### -> In this page u can get every details of the movie including the budget.
+![plot](https://raw.githubusercontent.com/biniam-bin/Mini-movies/main/public/mini-movies-screenshot/details-page.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+# <h1 align="center">THANK YOU</h1>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
